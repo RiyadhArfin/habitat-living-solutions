@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { TreePine, Trash2, Hammer, ClipboardCheck, Home, Key, ChevronDown } from 'lucide-react';
 import { useRevealOnScroll } from '../hooks/useRevealOnScroll';
-import handymanVideo from '../assets/videos/handyman-service.webm';
+import handymanVideo from '../assets/videos/Cinematic_closeup_of_a_modern_organized_cor.gif';
 import serviceLock from '../assets/images/service-lock.png';
 import serviceLawn from '../assets/images/service-lawn.png';
 import serviceDebris from '../assets/images/service-debris.png';
@@ -82,11 +82,10 @@ export default function ServicesPage() {
             <section className="svc-hero" ref={heroRef}>
 
                 {/* Video */}
-                <video
+                <img
                     className="svc-hero-video"
                     src={handymanVideo}
-                    autoPlay muted loop playsInline
-                    poster={heroServices}
+                    alt="Habitat Living Solutions LLC Services"
                 />
 
                 {/* Letterbox bars */}

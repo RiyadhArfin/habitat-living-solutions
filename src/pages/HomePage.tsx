@@ -5,7 +5,7 @@ import TiltCard from '../components/TiltCard';
 import BeforeAfterSlider from '../components/BeforeAfterSlider';
 import MagneticButton from '../components/MagneticButton';
 import { useRevealOnScroll } from '../hooks/useRevealOnScroll';
-import heroVideo from '../assets/videos/hero-video.webm';
+import heroVideo from '../assets/videos/hero-video.gif';
 import heroBg from '../assets/images/hero-main.png';
 import ctaBg from '../assets/images/cta-keys.png';
 import trustBadge from '../assets/images/trust-badge.png';
@@ -79,14 +79,10 @@ export default function HomePage() {
       <section className="hero" ref={heroRef}>
 
         {/* Video layer */}
-        <video
+        <img
           className="hero-video"
           src={heroVideo}
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster={heroBg}
+          alt="Habitat Living Solutions LLC Hero"
         />
 
         {/* Cinematic letterbox bars */}

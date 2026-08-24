@@ -45,6 +45,7 @@ export default function Header() {
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/services" className="nav-link">Services</Link>
           <Link to="/about" className="nav-link">About Us</Link>
+          <Link to="/privacy" className="nav-link">Privacy Policy</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </nav>
 
@@ -73,6 +74,7 @@ export default function Header() {
             <Link to="/" className="mobile-link" onClick={closeMobileMenu}>Home</Link>
             <Link to="/services" className="mobile-link" onClick={closeMobileMenu}>Services</Link>
             <Link to="/about" className="mobile-link" onClick={closeMobileMenu}>About Us</Link>
+            <Link to="/privacy" className="mobile-link" onClick={closeMobileMenu}>Privacy Policy</Link>
             <Link to="/contact" className="mobile-link" onClick={closeMobileMenu}>Contact</Link>
             <Link to="/contact" className="btn btn-primary mobile-cta" onClick={closeMobileMenu}>Get Quote</Link>
           </div>

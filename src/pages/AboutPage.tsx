@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Target, Shield, Users, ChevronDown } from 'lucide-react';
 import { useRevealOnScroll } from '../hooks/useRevealOnScroll';
-import aboutVideo from '../assets/videos/about-us.webm';
+import aboutVideo from '../assets/videos/about-us.gif';
 import aboutTeam from '../assets/images/about-team.png';
 import officeInterior from '../assets/images/office-interior.png';
 
@@ -67,12 +67,10 @@ export default function AboutPage() {
       {/* ── CINEMATIC VIDEO HERO ── */}
       <section className="abt-hero" ref={heroRef}>
 
-        {/* Video */}
-        <video
+        <img
           className="abt-hero-video"
           src={aboutVideo}
-          autoPlay muted loop playsInline
-          poster={officeInterior}
+          alt="Habitat Living Solutions LLC About Us"
         />
 
         {/* Letterbox bars */}

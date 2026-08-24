@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, MapPin, Send, ChevronDown } from 'lucide-react';
-import contactVideo from '../assets/videos/contract-us.webm';
+import contactVideo from '../assets/videos/contract-us.gif';
 import contactSupport from '../assets/images/contact-support.png';
 import featureInspection from '../assets/images/feature-inspection.png';
 
@@ -64,12 +64,10 @@ export default function ContactPage() {
             {/* ── CINEMATIC VIDEO HERO ── */}
             <section className="ctc-hero" ref={heroRef}>
 
-                {/* Video */}
-                <video
+                <img
                     className="ctc-hero-video"
                     src={contactVideo}
-                    autoPlay muted loop playsInline
-                    poster={featureInspection}
+                    alt="Habitat Living Solutions LLC Contact Us"
                 />
 
                 {/* Letterbox bars */}
