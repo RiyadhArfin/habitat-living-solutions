@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Sun, Moon } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import logo from '../assets/logo_icon_transparent.png';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isDark, setIsDark] = useState(() => {
+  const [isDark] = useState(() => {
     return localStorage.getItem('theme') === 'dark';
   });
 
@@ -50,14 +50,6 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
-          <button
-            className="theme-toggle"
-            onClick={() => setIsDark(!isDark)}
-            aria-label="Toggle theme"
-          >
-            {isDark ? <Sun size={20} /> : <Moon size={20} />}
-          </button>
-
           <Link to="/contact" className="btn btn-primary desktop-only">Get Quote</Link>
 
           <button

@@ -6,7 +6,7 @@ import BeforeAfterSlider from '../components/BeforeAfterSlider';
 import MagneticButton from '../components/MagneticButton';
 import { useRevealOnScroll } from '../hooks/useRevealOnScroll';
 import heroVideo from '../assets/videos/hero-video.gif';
-import heroBg from '../assets/images/hero-main.png';
+
 import ctaBg from '../assets/images/cta-keys.png';
 import trustBadge from '../assets/images/trust-badge.png';
 

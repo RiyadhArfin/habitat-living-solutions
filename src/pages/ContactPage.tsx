@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Mail, MapPin, Send, ChevronDown } from 'lucide-react';
 import contactVideo from '../assets/videos/contract-us.gif';
 import contactSupport from '../assets/images/contact-support.png';
-import featureInspection from '../assets/images/feature-inspection.png';
+
 
 const mockOrders = [
   { id: 1, type: 'Quote Request', loc: 'Albany, NY', time: '5m ago', status: 'Active' },
