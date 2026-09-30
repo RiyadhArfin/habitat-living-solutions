@@ -13,11 +13,37 @@ export default function ContactSection() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [mailtoLink, setMailtoLink] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    const subject = encodeURIComponent(`Estimate Request: ${formData.service} - ${formData.name}`);
+    const bodyText = 
+`Hello Habitat Living Solutions LLC Team,
+
+I would like to request an estimate for landscaping services in Albany / Capital Region.
+
+--- CLIENT & PROPERTY DETAILS ---
+• Full Name: ${formData.name}
+• Email: ${formData.email}
+• Phone: ${formData.phone || 'N/A'}
+• Property Type: ${formData.propertyType}
+• Service Needed: ${formData.service}
+• Property Address: ${formData.address || 'N/A'}
+
+--- PROJECT DETAILS / NOTES ---
+${formData.message || 'No additional notes provided.'}
+
+Best regards,
+${formData.name}`;
+
+    const mailto = `mailto:info@gethls.com?subject=${subject}&body=${encodeURIComponent(bodyText)}`;
+    setMailtoLink(mailto);
     setSubmitted(true);
-    // simulated submit
+
+    // Trigger mailto directly
+    window.location.href = mailto;
   };
 
   return (
@@ -104,27 +130,39 @@ export default function ContactSection() {
                   <div className="w-16 h-16 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center mx-auto">
                     <CheckCircle2 className="w-10 h-10" />
                   </div>
-                  <h3 className="text-2xl font-bold text-slate-900">Thank You!</h3>
+                  <h3 className="text-2xl font-bold text-slate-900">Estimate Request Generated!</h3>
                   <p className="text-slate-600 max-w-md mx-auto text-sm">
-                    Your quote inquiry has been submitted to <strong>Habitat Living Solutions LLC</strong>. We will contact you shortly at <strong>{formData.email || 'your email'}</strong>.
+                    Your email app should open automatically with your inquiry addressed to <strong>info@gethls.com</strong>.
                   </p>
-                  <button
-                    onClick={() => {
-                      setSubmitted(false);
-                      setFormData({
-                        name: '',
-                        email: '',
-                        phone: '',
-                        service: 'Lawn Mowing & Edging',
-                        propertyType: 'Residential',
-                        address: '',
-                        message: ''
-                      });
-                    }}
-                    className="mt-4 px-6 py-2.5 bg-forest-700 text-white rounded-xl text-sm font-semibold hover:bg-forest-800 transition-colors"
-                  >
-                    Submit Another Inquiry
-                  </button>
+
+                  <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+                    {mailtoLink && (
+                      <a
+                        href={mailtoLink}
+                        className="px-6 py-2.5 bg-forest-700 text-white rounded-xl text-sm font-semibold hover:bg-forest-800 transition-colors inline-flex items-center gap-2"
+                      >
+                        <Mail className="w-4 h-4" />
+                        <span>Open Email Draft Again</span>
+                      </a>
+                    )}
+                    <button
+                      onClick={() => {
+                        setSubmitted(false);
+                        setFormData({
+                          name: '',
+                          email: '',
+                          phone: '',
+                          service: 'Lawn Mowing & Edging',
+                          propertyType: 'Residential',
+                          address: '',
+                          message: ''
+                        });
+                      }}
+                      className="px-6 py-2.5 bg-slate-100 text-slate-700 rounded-xl text-sm font-semibold hover:bg-slate-200 transition-colors"
+                    >
+                      New Request
+                    </button>
+                  </div>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
