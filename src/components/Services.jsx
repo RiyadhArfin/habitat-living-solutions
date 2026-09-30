@@ -138,7 +138,7 @@ export default function Services() {
         <div className="mt-16 rounded-3xl bg-forest-900 text-white p-8 sm:p-10 relative overflow-hidden shadow-xl">
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="space-y-2 text-center md:text-left">
-              <h3 className="text-2xl sm:text-3xl font-bold font-serif-heading">
+              <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
                 Need a Custom Landscaping Package in Albany?
               </h3>
               <p className="text-sm sm:text-base text-forest-200 max-w-xl">

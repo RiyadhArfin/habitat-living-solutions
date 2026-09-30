@@ -97,7 +97,7 @@ export default function Hero() {
                     <Sparkles className="w-3.5 h-3.5 text-emerald-300" />
                     <span>Albany NY Grounds Excellence</span>
                   </div>
-                  <h3 className="text-xl font-bold font-serif-heading">Pristine Lawn Care & Curvature Edging</h3>
+                  <h3 className="text-xl font-bold tracking-tight">Pristine Lawn Care & Curvature Edging</h3>
                   <p className="text-xs text-slate-200 leading-relaxed">
                     Tailored turf management and decorative mulch installations designed to withstand Upstate New York seasons.
                   </p>

@@ -34,7 +34,7 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
       backgroundImage: {
         'pattern-subtle': "radial-gradient(#2b774415 1px, transparent 1px), radial-gradient(#2b774410 1px, #ffffff 1px)",

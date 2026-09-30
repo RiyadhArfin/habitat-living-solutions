@@ -58,7 +58,7 @@ export default function Process() {
                   <div className="w-12 h-12 rounded-xl bg-forest-50 text-forest-700 flex items-center justify-center group-hover:bg-forest-700 group-hover:text-white transition-colors">
                     <IconComp className="w-6 h-6" />
                   </div>
-                  <span className="text-3xl font-extrabold font-serif-heading text-forest-200 group-hover:text-forest-400 transition-colors">
+                  <span className="text-3xl font-black tracking-tight text-forest-200 group-hover:text-forest-400 transition-colors">
                     {step.number}
                   </span>
                 </div>
