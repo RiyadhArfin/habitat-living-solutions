@@ -16,42 +16,42 @@ const services = [
     title: 'Precision Lawn Mowing & Edging',
     description: 'Scheduled residential and commercial turf mowing, string-trimming around fences & obstacles, crisp pavement edging, and clean blow-off.',
     features: ['Even blade height control', 'Razor-sharp walkway edging', 'Clipping bagging or mulching', 'Scheduled weekly or bi-weekly'],
-    image: 'https://images.unsplash.com/photo-1592417817098-8f3d6eb228cc?auto=format&fit=crop&w=600&q=80'
+    image: 'https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=700&q=80'
   },
   {
     icon: Trees,
     title: 'Landscape Design & Planting',
     description: 'Enhancing curb appeal with curated perennial installations, ornamental shrubs, flowering beds, decorative stones, and modern border designs.',
     features: ['Custom landscape layout', 'Climate-adapted NY flora', 'Soil prep & root fertilization', 'Weed barrier installation'],
-    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80'
+    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80'
   },
   {
     icon: Layers,
     title: 'Premium Mulching & Bed Care',
     description: 'Deep trench bed edging and fresh premium triple-shredded mulch application to retain moisture, suppress weed growth, and protect root systems.',
     features: ['Black, brown, and natural mulch', 'Deep perimeter trenching', 'Pre-emergent weed protection', 'Shrub base preservation'],
-    image: 'https://images.unsplash.com/photo-1598901847919-b95dd0fabbb6?auto=format&fit=crop&w=600&q=80'
+    image: 'https://images.unsplash.com/photo-1598901847919-b95dd0fabbb6?auto=format&fit=crop&w=700&q=80'
   },
   {
     icon: Wind,
     title: 'Spring & Fall Seasonal Cleanups',
     description: 'Comprehensive seasonal property overhauls. Thorough leaf vacuuming/clearing, perennial cutbacks, lawn dethatching, and post-winter rejuvenation.',
     features: ['Complete leaf & debris removal', 'Lawn aeration & overseeding', 'Branch & deadwood clearing', 'Winterization preparation'],
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80'
+    image: 'https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?auto=format&fit=crop&w=700&q=80'
   },
   {
     icon: SunMedium,
     title: 'Hedge, Shrub & Bush Trimming',
     description: 'Artistic and horticultural pruning of ornamental bushes, privacy hedges, and small ornamental trees to promote healthy, dense growth.',
     features: ['Topiary and geometric shaping', 'Dead foliage elimination', 'Suckers & wild shoot removal', 'Seasonal structural pruning'],
-    image: 'https://images.unsplash.com/photo-1599818816933-5b8782f25b29?auto=format&fit=crop&w=600&q=80'
+    image: 'https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=700&q=80'
   },
   {
     icon: Building2,
     title: 'Commercial & Asset Grounds Care',
     description: 'Contract grounds maintenance tailored for Albany commercial complexes, HOA communities, multi-family residences, and corporate facilities.',
     features: ['Full compliance documentation', 'Rapid turnaround crews', 'High-traffic curb presentation', 'Flexible commercial billing'],
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80'
+    image: 'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=700&q=80'
   }
 ];
 

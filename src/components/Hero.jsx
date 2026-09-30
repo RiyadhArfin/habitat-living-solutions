@@ -83,7 +83,7 @@ export default function Hero() {
               {/* Main Image Card */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100">
                 <img
-                  src="https://images.unsplash.com/photo-1558904541-efa8c4a08931?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80"
                   alt="Lush manicured lawn and landscaping by Habitat Living Solutions"
                   className="w-full h-[440px] sm:h-[480px] object-cover hover:scale-105 transition-transform duration-700"
                 />
