@@ -7,7 +7,7 @@ const galleryItems = [
     categoryName: 'Lawn Care & Edging',
     title: 'Manicured Estate Lawn & Striping',
     location: 'Albany, NY Residential',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=700&q=80',
+    image: '/images/gallery_lawn1.jpg',
     details: 'Weekly precision mowing, edge trimming, and turf health management.'
   },
   {
@@ -15,7 +15,7 @@ const galleryItems = [
     categoryName: 'Mulch & Bed Design',
     title: 'Deep Trench Bed with Dark Bark Mulch',
     location: 'Colonie, NY Property',
-    image: 'https://images.unsplash.com/photo-1584467541268-b040f83be3fd?auto=format&fit=crop&w=700&q=80',
+    image: '/images/gallery_mulch.jpg',
     details: 'Perennial plantings, rock borders, and weed-suppressing organic mulch.'
   },
   {
@@ -23,7 +23,7 @@ const galleryItems = [
     categoryName: 'Commercial Grounds',
     title: 'Corporate Park Perimeter Maintenance',
     location: 'Albany NY Business District',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=700&q=80',
+    image: '/images/gallery_commercial.jpg',
     details: 'Full contract groundskeeping, walkway clearing, and code compliance.'
   },
   {
@@ -31,7 +31,7 @@ const galleryItems = [
     categoryName: 'Shrub & Hedge Care',
     title: 'Geometric Privacy Hedge Sculpting',
     location: 'Delmar, NY Estate',
-    image: 'https://images.unsplash.com/photo-1557429287-b2e26467fc2b?auto=format&fit=crop&w=700&q=80',
+    image: '/images/gallery_shrub.jpg',
     details: 'Precision level hedge pruning and ornamental bush rejuvenation.'
   },
   {
@@ -39,7 +39,7 @@ const galleryItems = [
     categoryName: 'Seasonal Cleanup',
     title: 'Fall Leaf Removal & Lawn Dethatching',
     location: 'Guilderland, NY',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=80',
+    image: '/images/gallery_cleanup.jpg',
     details: 'Complete foliage vacuuming, aeration, and winter grass prep.'
   },
   {
@@ -47,7 +47,7 @@ const galleryItems = [
     categoryName: 'Lawn Care & Edging',
     title: 'Vibrant Green Turf Restoration',
     location: 'Albany, NY Residential',
-    image: 'https://images.unsplash.com/photo-1590682680695-43b964a3ae17?auto=format&fit=crop&w=700&q=80',
+    image: '/images/gallery_lawn2.jpg',
     details: 'Overseeding, custom aeration, and scheduled fertilization treatments.'
   }
 ];
